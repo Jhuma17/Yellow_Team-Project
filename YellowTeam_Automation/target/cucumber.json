@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Login with valid credential \u0026 Verify the home page",
+        "description": "",
+        "id": "zoopla-users-can-buy-\u0026-sell-the-property;login-with-valid-credential-\u0026-verify-the-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5573432200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user I am able to open any browser",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_am_able_to_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2150100800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "As a user I am able to enter \"https://www.zoopla.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.zoopla.com/",
+                  "offset": 30
+                }
+              ],
+              "location": "ZooplaStepDefinition.as_a_user_I_am_able_to_enter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2090171200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As a user I am able to click on signin button",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_am_able_to_click_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246361600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user I am able to enter the valid \"jhumarayyan@gmail.com\" and \"Tuktuki2712\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhumarayyan@gmail.com",
+                  "offset": 40
+                },
+                {
+                  "val": "Tuktuki2712",
+                  "offset": 68
+                }
+              ],
+              "location": "ZooplaStepDefinition.as_a_user_I_am_able_to_enter_the_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705377100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "As a user I am able to submit signin button",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_am_able_to_submit_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96293300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Homepage title should be \"Browse properties by city or town in the UK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Browse properties by city or town in the UK",
+                  "offset": 26
+                }
+              ],
+              "location": "ZooplaStepDefinition.homepage_title_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2149460800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "As a user I can enter the location as \"New York, Lincolnshire\" \u0026 search it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York, Lincolnshire",
+                  "offset": 39
+                }
+              ],
+              "location": "ZooplaStepDefinition.as_a_user_I_can_enter_the_location_as_search_it(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165443600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "As a user I can print all the price values",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_can_print_all_the_price_values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105441600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "As a user I can select the fifth property on list",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_can_select_the_fifth_property_on_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86329100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "As a user I can verify the logo, name and phone number of the agent \"Logo,Agent name,phone number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logo,Agent name,phone number",
+                  "offset": 69
+                }
+              ],
+              "location": "ZooplaStepDefinition.as_a_user_I_can_verify_the_logo_name_and_phone_number_of_the_agent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189453700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "As a user I can click on my zoopla button",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_can_click_on_my_zoopla_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16068500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "As a user I can click on signout button",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_can_click_on_signout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35534600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Loginpage title should be \"Zoopla \u003e Search Property to Buy, Rent, House Prices, Estate Agents\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Zoopla \u003e Search Property to Buy, Rent, House Prices, Estate Agents",
+                  "offset": 27
+                }
+              ],
+              "location": "ZooplaStepDefinition.loginpage_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 635466700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "As a user I can close the browser",
+            "match": {
+              "location": "ZooplaStepDefinition.as_a_user_I_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Zoopla users can buy \u0026 sell the property",
+    "description": "\r\nDescription: \"User can search the property, check the price, contact with the agent.\"",
+    "id": "zoopla-users-can-buy-\u0026-sell-the-property",
+    "keyword": "Feature",
+    "uri": "Cucumber_Features/LoginTestCases.feature"
+  }
+]
